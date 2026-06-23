@@ -1,0 +1,7 @@
+@import '@deckio/deck-engine/styles/global.css';
+@import '@deckio/deck-engine/themes/dark.css';
+
+/* Hide the DECKIO watermark on the Thank You slide */
+.deck-ty-watermark {
+  display: none;
+}

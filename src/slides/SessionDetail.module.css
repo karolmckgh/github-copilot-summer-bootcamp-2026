@@ -1,0 +1,105 @@
+.detail {
+  background: var(--background);
+  padding: 0 0 44px 0;
+}
+
+.orb1 {
+  width: 420px;
+  height: 420px;
+  top: -130px;
+  right: -90px;
+  opacity: 0.4;
+  background: radial-gradient(
+    circle at 40% 40%,
+    var(--accent),
+    color-mix(in srgb, var(--green) 30%, transparent) 50%,
+    transparent 70%
+  );
+}
+
+.orb2 {
+  width: 320px;
+  height: 320px;
+  bottom: -70px;
+  left: -70px;
+  opacity: 0.5;
+  background: radial-gradient(
+    circle at 50% 50%,
+    var(--purple-deep),
+    color-mix(in srgb, var(--purple-deep) 30%, transparent) 60%,
+    transparent 75%
+  );
+}
+
+.body {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 18px;
+  max-width: 1000px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.level {
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  padding: 5px 12px;
+  border-radius: 6px;
+}
+
+.l100 {
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+}
+
+.l200 {
+  color: var(--cyan);
+  background: color-mix(in srgb, var(--cyan) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--cyan) 35%, transparent);
+}
+
+.l300 {
+  color: var(--pink);
+  background: color-mix(in srgb, var(--pink) 14%, transparent);
+  border: 1px solid color-mix(in srgb, var(--pink) 35%, transparent);
+}
+
+.persona {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: var(--muted-foreground);
+  padding: 5px 14px;
+  border-radius: 9999px;
+  background: var(--surface-overlay);
+  border: 1px solid var(--border);
+  white-space: nowrap;
+}
+
+.body h1 {
+  font-size: clamp(28px, 3.6vw, 46px);
+  font-weight: 900;
+  letter-spacing: -1.5px;
+  color: var(--foreground);
+  margin: 0;
+  line-height: 1.1;
+}
+
+.desc {
+  font-size: clamp(15px, 1.45vw, 18px);
+  font-weight: 300;
+  color: color-mix(in srgb, var(--foreground) 82%, transparent);
+  line-height: 1.65;
+  margin: 0;
+}
