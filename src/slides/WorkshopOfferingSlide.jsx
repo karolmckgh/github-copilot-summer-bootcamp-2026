@@ -10,7 +10,7 @@ export default function WorkshopOfferingSlide({ index, project }) {
 
       <div className={`${styles.body} content-frame content-gutter`}>
         <div className={styles.header}>
-          <Editable as="p" id="offering.eyebrow" className={styles.eyebrow}>Your invitation</Editable>
+          <Editable as="p" id="offering.eyebrow" className={styles.eyebrow}>Your invitation · Online event</Editable>
           <h1>
             <Editable as="span" id="offering.titleBefore">Engineer with agents.</Editable>{' '}
             <Editable as="span" id="offering.titleHighlight" className={styles.highlight}>Multiply your impact.</Editable>
@@ -40,6 +40,11 @@ export default function WorkshopOfferingSlide({ index, project }) {
 
         <div className={styles.footer}>
           <div className={styles.stats}>
+            <div className={styles.stat}>
+              <Editable as="span" id="offering.stats.online.value" className={styles.statValue}>Online</Editable>
+              <Editable as="span" id="offering.stats.online.label" className={styles.statLabel}>Join live from anywhere</Editable>
+            </div>
+            <div className={styles.statDivider} />
             <div className={styles.stat}>
               <Editable as="span" id="offering.stats.weeks.value" className={styles.statValue}>6 weeks</Editable>
               <Editable as="span" id="offering.stats.weeks.label" className={styles.statLabel}>Same content weekly, drop-in</Editable>
