@@ -2,7 +2,6 @@ import { BottomBar, Editable, Slide } from '@deckio/deck-engine'
 import styles from './TeamSlide.module.css'
 
 const TEAM = [
-  { id: 'alessandro', name: 'Alessandro Vozza', title: 'Sr Solution Engineer', photo: `${import.meta.env.BASE_URL}team/alessandro.png` },
   { id: 'ana', name: 'Ana Negru', title: 'Solution Engineer', photo: `${import.meta.env.BASE_URL}team/ana.png` },
   { id: 'emile', name: 'Emile Verbunt', title: 'Sr Solution Engineer', photo: `${import.meta.env.BASE_URL}team/emile.png` },
   { id: 'joran', name: 'Joran Bergfeld', title: 'Sr Solution Engineer', photo: `${import.meta.env.BASE_URL}team/joran.png` },
