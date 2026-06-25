@@ -32,6 +32,31 @@
   max-width: 760px;
 }
 
+.logosWrap {
+  position: absolute;
+  left: var(--space-12);
+  bottom: 60px;
+  z-index: 10;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.logo {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
+.logoDivider {
+  width: 1px;
+  height: 40px;
+  background: color-mix(in srgb, var(--foreground) 22%, transparent);
+}
+
 .content h1 {
   font-size: clamp(48px, 5.5vw, 80px);
   font-weight: 900;

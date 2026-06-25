@@ -20,6 +20,14 @@ export default function BootcampTitleSlide({ index, project }) {
         </div>
       </div>
 
+      <div className={styles.logosWrap}>
+        <div className={styles.logos}>
+          <img src={`${import.meta.env.BASE_URL}logos/microsoft-white.png`} alt="Microsoft" className={styles.logo} />
+          <span className={styles.logoDivider} />
+          <img src={`${import.meta.env.BASE_URL}logos/github-white.png`} alt="GitHub" className={styles.logo} />
+        </div>
+      </div>
+
       <BottomBar text={<Editable as="span" id="bootcampTitle.footer">GitHub Copilot Summer Bootcamp</Editable>} />
     </Slide>
   )
