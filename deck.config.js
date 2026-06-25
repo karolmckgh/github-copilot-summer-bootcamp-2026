@@ -15,7 +15,7 @@ import {
 } from './src/slides/SessionDetailSlides.jsx'
 import HowToRegisterSlide from './src/slides/HowToRegisterSlide.jsx'
 import TeamSlide from './src/slides/TeamSlide.jsx'
-import { GenericThankYouSlide as ThankYouSlide } from '@deckio/deck-engine'
+import ThankYouSlide from './src/slides/ThankYouSlide.jsx'
 
 export default {
   id: 'github-copilot-summer-bootcamp-2026',

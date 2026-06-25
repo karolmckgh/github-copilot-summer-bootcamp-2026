@@ -34,8 +34,8 @@
 
 .logosWrap {
   position: absolute;
-  left: var(--space-12);
-  bottom: 60px;
+  right: var(--space-14);
+  bottom: 96px;
   z-index: 10;
 }
 
@@ -46,9 +46,19 @@
 }
 
 .logo {
-  height: 50px;
+  height: 72px;
   width: auto;
   display: block;
+}
+
+.logoMicrosoft {
+  height: 68px;
+  width: 68px;
+}
+
+.logoGitHub {
+  height: 72px;
+  width: 72px;
 }
 
 .logoDivider {
