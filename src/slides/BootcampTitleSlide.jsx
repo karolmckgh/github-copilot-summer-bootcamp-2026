@@ -22,9 +22,9 @@ export default function BootcampTitleSlide({ index, project }) {
 
       <div className={styles.logosWrap}>
         <div className={styles.logos}>
-          <img src={`${import.meta.env.BASE_URL}logos/microsoft-white.png`} alt="Microsoft" className={styles.logo} />
+          <img src={`${import.meta.env.BASE_URL}logos/microsoft-mark.svg`} alt="Microsoft" className={`${styles.logo} ${styles.logoMicrosoft}`} />
           <span className={styles.logoDivider} />
-          <img src={`${import.meta.env.BASE_URL}logos/github-white.png`} alt="GitHub" className={styles.logo} />
+          <img src={`${import.meta.env.BASE_URL}logos/github-mark.svg`} alt="GitHub" className={`${styles.logo} ${styles.logoGitHub}`} />
         </div>
       </div>
 
