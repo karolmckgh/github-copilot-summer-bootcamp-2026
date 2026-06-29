@@ -15,6 +15,7 @@ import {
 } from './src/slides/SessionDetailSlides.jsx'
 import HowToRegisterSlide from './src/slides/HowToRegisterSlide.jsx'
 import TeamSlide from './src/slides/TeamSlide.jsx'
+import DisclaimerSlide from './src/slides/DisclaimerSlide.jsx'
 import ThankYouSlide from './src/slides/ThankYouSlide.jsx'
 
 export default {
@@ -43,6 +44,7 @@ export default {
     SreDetailSlide,
     HowToRegisterSlide,
     TeamSlide,
+    DisclaimerSlide,
     ThankYouSlide,
   ],
 }
