@@ -14,3 +14,14 @@ npm-debug.log*
 # Editor / OS
 .DS_Store
 .vscode/
+.deckio-sync-state.json
+.gh-pages-tmp
+*.local
+core
+core.*
+*.core
+*.dmp
+*.mdmp
+*.hprof
+*.heapsnapshot
+*.heap
